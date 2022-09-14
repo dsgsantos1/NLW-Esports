@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* respeitar os limites impostos pelas caixas sem somar */
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-image: url(../images/Fundo.jpg);
+    background-position: top center;
+    /* posição do background, comecará no top e central */
+    background-size: 100% auto;
+    /* tamanho da imagem vai ser 100% horizontal width e vertical vai ser auto */
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+    /* altura da linha da fonte */
+}
+
+header {
+   
+    
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 32px;
+
+}
+
+header img {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    /* se a tela for menor que 580 px de largura, então o width dela será de 90% dela mesma*/
+    margin: auto;
+    margin-top: 32px;
+    /* deixa as margens automaticas para poder utilizar 90% de width da tela */
+    display: flex;
+    flex-direction: column; /*vai deixar um elemento embaixo do outro*/
+    gap: 24px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div{
+    background-color: rgba(42, 38, 52, 1);
+    border-radius: 8px;
+    padding: 32px;
+    padding-top: 24px;
+}
+
+
+section h2 {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #A1A1AA;
+    letter-spacing: -0.18px;
+}
+
+section ul {
+    display: flex;
+    gap: 16px; /*Espaço entre os elementos dentro de li*/
+    margin-top: 24px;
+    flex-wrap: wrap; /* se não der pra colocar outra caixa, ele manda pra baixo*/
+}
+
+.games-list img{
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel-list img{
+    width: 70px;
+    border-radius: 50%;
+}
