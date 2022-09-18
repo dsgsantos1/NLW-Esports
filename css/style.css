@@ -65,7 +65,7 @@ header img {
 }
 
 main {
-    max-width: 580px;
+    max-width: 500px;
     width: 90%;
     /* se a tela for menor que 580 px de largura, então o width dela será de 90% dela mesma*/
     margin: 32px auto;
@@ -110,6 +110,7 @@ section ul {
     display: flex;
     gap: 16px; /*Espaço entre os elementos dentro de li*/
     margin-top: 24px;
+    justify-content: space-around;
     flex-wrap: wrap; /* se não der pra colocar outra caixa, ele manda pra baixo*/
 }
 
